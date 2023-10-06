@@ -1,0 +1,59 @@
+
+.left{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-left: 350px;
+	margin-top: 50px;
+	position: absolute;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.8s;
+}
+.mid{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-left: 650px;
+	margin-top: 50px;
+	position: absolute;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 0.9s;
+}
+.right{
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+	margin-left: 950px;
+	margin-top: 50px;
+	position: absolute;
+    opacity: 1;
+	animation-name: fadeInOpacity;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: 1s;
+}
+
+.text1{
+    padding: 0px 60px;
+
+}
+.text2{
+    padding: 0px 45px;
+
+}
+.text3{
+    padding: 0px 60px;
+
+}
+.sbar{
+    position: fixed;
+}
+
+@keyframes fadeInOpacity {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}

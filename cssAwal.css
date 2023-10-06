@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main1 {
+  width: 71%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.75)), url("img/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+}
+
+.main2 {
+  display: right;
+}
+
+.navbar {
+  width: 25%;
+  padding: 25px;
+}
+
+.logo {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  width: 120px;
+  cursor: pointer;
+  margin: 8px;
+}
+
+.content {
+  top: 40%;
+  width: 100%;
+  text-align: center;
+  color: white;
+  position: absolute;
+  transform: translateY(-50);
+}
+
+.content h1 {
+  font-size: 23px;
+}
+
+.content p {
+  margin: 20px auto;
+  font-weight: 20px;
+}
+
+button {
+  width: 150px;
+  margin: 10px 5px;
+  padding: 10px 0;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  background: transparent;
+  border: 3px solid rgb(51, 92, 138);
+  position: relative;
+  cursor: pointer;
+  border-radius: 10px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+span {
+  height: 100%;
+  width: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  position: absolute;
+  border-radius: 10px;
+  background: rgb(59, 135, 185);
+  transition: 0.5s;
+}
+
+button:hover span {
+  width: 100%;
+}
+
+button:hover {
+  border: none;
+}
+
+.main2 {
+  width: 26%;
+  height: 97vh;
+  background-color: rgb(59, 135, 185);
+  position: absolute;
+  margin-left: 72%;
+  text-align: center;
+  font-weight: bold;
+  color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "segoe ui", roboto, oxygen, ubuntu, cantarell, "fira sans", "droid sans", "helvetica neue", Arial, sans-serif;
+  padding: 8px;
+}
+
+.main2 h2 {
+  font-weight: bold;
+  font-size: 23px;
+}
+
+.main2 p {
+  font-weight: 20px;
+}
